@@ -45,14 +45,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Chessboard.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Chessboard.Designer.cs">
+      <DependentUpon>Chessboard.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
+    <Compile Include="Chessmaster.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Chessboard.resx">
+      <DependentUpon>Chessboard.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -74,6 +77,20 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="WhiteKnight.bmp" />
+    <Content Include="WhiteBishop.bmp" />
+    <Content Include="WhiteKing.bmp" />
+    <Content Include="BlackPawn.bmp" />
+    <Content Include="BlackBishop.bmp" />
+    <Content Include="BlackKnight.bmp" />
+    <Content Include="BlackRook.bmp" />
+    <Content Include="BlackQueen.bmp" />
+    <Content Include="BlackKing.bmp" />
+    <Content Include="WhiteQueen.bmp" />
+    <Content Include="WhiteRook.bmp" />
+    <Content Include="WhitePawn.bmp" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
