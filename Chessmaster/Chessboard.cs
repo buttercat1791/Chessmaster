@@ -31,5 +31,10 @@ namespace Chessmaster
         {
 
         }
+
+        private void Chessboard_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
