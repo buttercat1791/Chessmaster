@@ -22,16 +22,6 @@ namespace Chessmaster
 
         }
 
-        private void pictureBox41_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox19_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void Chessboard_Load(object sender, EventArgs e)
         {
 

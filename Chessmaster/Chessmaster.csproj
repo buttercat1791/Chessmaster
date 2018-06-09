@@ -52,6 +52,7 @@
       <DependentUpon>Chessboard.cs</DependentUpon>
     </Compile>
     <Compile Include="Chessmaster.cs" />
+    <Compile Include="Piece.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Chessboard.resx">
       <DependentUpon>Chessboard.cs</DependentUpon>

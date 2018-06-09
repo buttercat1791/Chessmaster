@@ -528,7 +528,6 @@ namespace Chessmaster
             this.A3.Size = new System.Drawing.Size(119, 119);
             this.A3.TabIndex = 40;
             this.A3.TabStop = false;
-            this.A3.Click += new System.EventHandler(this.pictureBox41_Click);
             this.A3.MouseClick += new System.Windows.Forms.MouseEventHandler(PieceHandler);
             // 
             // H4
