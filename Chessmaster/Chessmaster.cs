@@ -20,6 +20,10 @@ namespace Chessmaster
         H1, H2, H3, H4, H5, H6, H7, H8
     }
 
+    public enum Direction { Up, UpRight, Right, DownRight, Down, DownLeft, Left, UpLeft }
+
+    public Dictionary<Square, Piece> locations = new Dictionary<Square, Piece>(); 
+
     static class Chessmaster
     {
         /// <summary>
